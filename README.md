@@ -11,8 +11,10 @@ I only know so much about HTML and CSS. Anyone can contribute and add on to the 
 ## How can I help?
 - Go to this website: https://tommypanzram.neocities.org/ (This is a layout editor for SpaceHey.)
 - Click on the profile drop down and select "Group"
-- For CSS, go to the HTML file in the repo and get <style> through </style> (This is in charge of the customization.)
-<br>
+- For CSS, go to the CSS file in the repo and copy and paste into the "CSS" part of the editor (This is in charge of the customization.)
+- For HTML, go to the HTML file in the repo and copy and pase into the "Group Content" part of the editor (This is in charge of the main content.)
+  <br>
+  <br>
 Once you're done make sure to submit a pull request if you would like your changes to be seen on the Group Page.
 
 ## That's cool and all, but where can I find the group page?
