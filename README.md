@@ -1,5 +1,5 @@
-# Resonite-SpaceHey-Group-Layout
-HTML Layout for my Unofficial Resonite Group on SpaceHey.
+# Resonite SpaceHey Group Layout
+This is an HTML Layout for my Unofficial Resonite Group on SpaceHey.
 ## What is SpaceHey?
 SpaceHey is a retro social network focused on privacy and customizability. It's a friendly place to have fun, meet friends, and be creative.
 <br>
