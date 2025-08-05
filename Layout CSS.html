@@ -12,6 +12,19 @@ body{font-family: 'Poppins', sans-serif;}
 content: url(https://i.postimg.cc/hGLR4Ytq/spaceheyresonite-logo.png);
 }
 
+/*Changes the notification icon to the contacts icon*/
+nav .links a[href$="/notifications"] .icon { 
+content:url('https://i.postimg.cc/L8V2zV7S/Color-1024-Friends.png'); 
+width: XXXPX;
+height: XXXpx;
+}
+
+/*Changes the "Support Us" icon to the Resonite Supporter icon*/
+nav .right a[href$="/support"] .icon {
+content:url('https://i.postimg.cc/PNsv8M7Z/Color-1024-Supporter-Color.png'); 
+width: XXXPX;
+height: XXXpx;
+}
 /*Changes header to be more like Resonite's website*/
 nav .top{
   background: #2b2f35;
@@ -49,14 +62,435 @@ nav .links a:hover{
 	background-image: url(https://i.postimg.cc/fb3WDsVq/Website-Gradient.png);
 }
 
+.row.groups-container .col.w-75.group-right {
+  background: #11151d;
+  border-radius:20px;
+  padding-bottom:10px;
+}
 .top .left a {
   padding-left:300px
+}
+
+.top .center {
+ padding-left:550px; 
+ padding-top:10px;
+}
+
+.top .right a{
+  background: #2b2f35;
+  color: #d5d5d6;
+  font-size: 12.5px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.top .right a:hover{
+  background: #2b2f35;
+  color: #61d1fa;
+  font-size: 12.5px;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.top .right .logout-form .logout-btn{
+  background: #2b2f35;
+  color: #d5d5d6;
+  font-size: 12.5px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.top .right .logout-form .logout-btn:hover{
+  background: #2b2f35;
+  color: #61d1fa;
+  font-size: 12.5px;
+  text-align: center;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+/*Changes search box to look more like Resonite's contact text box*/
+.center .search-wrapper #q{
+ background: #1e2125;
+ color:#e1e1e0;
+ padding:1px;
+ border-radius:5px;
+ border-width:2px;
+ border-color:#2b2f35;
+}
+
+.center .search-wrapper #q:hover{
+ background: #454c56;
+ color:#e1e1e0;
+ padding:1px;
+ border-radius:5px;
+ border-width:2px;
+ border-color:#5f6775;
+}
+
+.center .search-wrapper #q:active{
+ background: #516787;
+ color:#e1e1e0;
+ padding:1px;
+ border-width:2px;
+ border-radius:5px;
+ border-color:#6e8ab5;
+}
+
+/*Changed links to look more like Resonite's UIX*/
+/*Search Button*/
+.center form button{
+ background:#2b2f35; 
+ color: white;
+ padding: 1px;
+ border-color:#2b2f35;
+ border-radius:5px
+}
+
+.center form button:hover{
+ background:#5f6775; 
+ color: white;
+ padding: 1px;
+ border-color:#5f6775;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.center form button:active{
+ background:#6e8ab5; 
+ color: white;
+ padding: 1px;
+ border-color:#6e8ab5
+ border-radius:5;;
+ text-decoration:none;
+}
+
+
+/*Button to SpaceHey Groups*/
+h4 a{
+ background:#2b2f35; 
+ color: white;
+ padding: 7px;
+ border-radius:7.5px
+}
+
+h4 a:hover{
+ background:#5f6775; 
+ color: white;
+ padding: 7px;
+ border-radius:7.5px;
+ text-decoration:none;
+}
+h4 a:active{
+background:#6e8ab5; 
+ color: white;
+ padding: 7px;
+ border-radius:7.5px;
+ text-decoration:none;  
+}
+
+/*Group Actions*/
+
+.col.w-25.group-left .m-row .m-col .group-actions{
+  background: #11151d;
+  border-radius:20px;
+  border: solid 10px #11151d
+}
+
+.col.w-25.group-left .m-row .m-col .group-actions li{
+  background:#2b2f35;
+  color:white;
+  border-radius: 8px;
+}
+
+.col.w-25.group-left .m-row .m-col .group-actions li:hover{
+  background:#5f6775;
+  color:white;
+  border-radius: 8px;
+}
+  
+  .col.w-25.group-left .m-row .m-col .group-actions li:active{
+  background:#6e8ab5;
+  color:white;
+  border-radius: 8px;
+}
+
+/*Report Group*/
+.m-col .report-group a{
+  background:#ae5458;
+  color:white;
+  border-radius: 7.5px;
+  padding:5px;
+}
+
+.m-col .report-group a:hover{
+  background:#6e3538;
+  color:white;
+  border-radius: 7.5px;
+  padding:5px;
+  text-decoration:none;
+}
+
+.m-col .report-group a:active{
+  background:#2f0d0f;
+  color:white;
+  border-radius: 7.5px;
+  padding:5px;
+  text-decoration:none;
+}
+
+.m-col .report-group a:visited{
+background:#ae5458;
+  text-decoration:none;
+}
+
+.m-col .report-group a .icon{
+display:none;
+}
+
+
+/*Open Group Forum Button*/
+
+.row.groups-container .col.w-75.group-right button{
+ background:#2b2f35; 
+ color: white;
+ padding: 3px;
+ border-color:#2b2f35;
+ border-radius:5px
+}
+
+.row.groups-container .col.w-75.group-right button:hover{
+ background:#5f6775; 
+ color: white;
+ padding: 3px;
+ border-color:#2b2d35;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.row.groups-container .col.w-75.group-right button:active{
+ background:#6e8ab5; 
+ color: white;
+ padding: 3px;
+ border-color:#6e8ab5;
+ border-radius:5px;
+ text-decoration:none;
 }
 
 /*Changes layout to be more like Resonite's website*/
 .container {
     width: 100%;
     margin: 0px;
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+    background: url(https://i.postimg.cc/t4vFCF5q/BG1.png);
+    background-attachment: fixed;
+}
+
+.row.groups-container .col.w-75.group-right {
+  padding-right: 15px;
+}
+/*Changes the arrow icon to the reference icon*/
+.rss-right .icon {
+  content: url(https://i.postimg.cc/sXJwDv03/Color-1024-Reference.png);
+}
+
+/*Changes the Bulletin Board and Group Forum to resemble more like the settings page*/
+/*Bulletin Board*/
+
+.bulletin-table  tr th:nth-child(1){
+ border-radius: 7.5px 0px 0px 0px;
+}
+
+.bulletin-table tr th:nth-child(4){
+ border-radius: 0px 7.5px 0px 0px;
+}
+
+.bulletin-table th{
+ background: #2b2e36;
+ border: none;
+}
+
+.bulletin-table tr .user-info{
+ background-color: none;
+ color: none;
+ border: none;
+}
+
+.bulletin-table thead tr th{
+ background:#2b2e36;
+ border:none;
+}
+
+.bulletin-table tbody tr td:nth-child(4){
+  background: #2b2e36; 
+  border:none;
+}
+
+.bulletin-table tbody tr td:nth-child(2){
+  background: #2b2e36; 
+  border:none;
+}
+
+.bulletin-table tbody tr:last-child td:nth-child(4){
+   border-radius: 0px 0px 7.5px 0px;
+}
+
+.bulletin-table tbody tr:last-child .user-info{
+ border-radius: 0px 0px 0px 7.5px;
+}
+
+.bulletin-table .user-info a:nth-child(1) p{
+  width:150px;
+  display:block;
+  margin:auto;
+ background:#12141c; 
+ color: white;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.bulletin-table .user-info a:nth-child(1) p:hover{
+ background:#284c5d; 
+ color: #61d1fa;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.bulletin-table .user-info a:nth-child(1) p:active{
+ background:#61d1fa; 
+ color: #1a2a36;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.bulletin-table tr td:nth-child(4) a{
+  width:150px;
+  display:block;
+  margin:auto;
+ background:#12141c; 
+ color: white;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.bulletin-table tr td:nth-child(4) a:hover{
+ background:#284c5d; 
+ color: #61d1fa;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.bulletin-table tr td:nth-child(4) a:active{
+ background:#61d1fa; 
+ color: #1a2a36;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+/*Group Forum*/
+
+.forum-table tr .user-info{
+ background-color: none;
+ color: none;
+ border: none;
+}
+
+.forum-table thead tr th:nth-child(1){
+border-radius: 7.5px 0px 0px 0px
+}
+
+.forum-table thead tr th:nth-child(4){
+border-radius: 0px 7.5px 0px 0px
+}
+  
+.forum-table thead tr th{
+ background:#2b2e36;
+ border:none;
+}
+
+tr .user-info{
+ background: #2b2e36;
+}
+
+.forum-table tbody tr:last-child .user-info{
+ border-radius: 0px 0px 0px 7.5px;
+}
+
+tr .subject{
+  background: #2b2e36; 
+  border:none;
+}
+
+tr .reply-count{
+  background: #2b2e36; 
+  border:none;
+}
+
+.forum-table tbody tr td:nth-child(4){
+  background: #2b2e36; 
+  border:none;
+}
+
+.forum-table tbody tr:last-child td:nth-child(4){
+   border-radius: 0px 0px 7.5px 0px;
+}
+
+tr .subject a {
+background:#12141c;
+color:#e1e1e0;
+border-radius:7.5px;
+font-size:15px;
+padding:10px;
+}
+
+tr .subject a:hover{
+  background:#284c5d;
+  color:#61d1fa;
+  text-decoration:none;
+}
+
+tr .subject a:active{
+  background:#61d1fa;
+  color:#1a2a36;
+  text-decoration:none;
+}
+
+.row.groups-container .col.w-75.group-right i a{
+ background:#2b2f35; 
+ color: white;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.row.groups-container .col.w-75.group-right i a:hover{
+ background:#5f6775; 
+ color: white;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.row.groups-container .col.w-75.group-right i a:active{
+ background:#6e8ab5; 
+ color: white;
+ padding: 2px;
+ border-radius:5px;
+ text-decoration:none;
 }
 
 /*Changes footer to be more like Resonite's website*/
@@ -67,6 +501,22 @@ footer{
   text-align: center;
   margin:auto;
 }
+
+footer a{
+  background: #2b2f35;
+  color: #d5d5d6;
+  text-align: center;
+  text-shadow: none;
+}
+
+footer a:hover{
+  background: #2b2f35;
+  color: #d5d5d6;
+  text-align: center;
+  text-decoration:none;
+  text-shadow: none;
+}
+
 
 footer .links a{
   background: #2b2f35;
@@ -87,19 +537,37 @@ footer .links a:hover{
   text-shadow: none;
 }
 
+footer .copyright a{
+ color: #d5d5d6;
+ text-decoration: none;
+ text-shadow: none;
+}
+
+footer .copyright{ 
+text-decoration: none;
+}
 
 /*Changes PFPs to be round like the PFPs in Resonite*/
 .m-col .group-pic{
 border-radius: 50%;
-content: url(https://i.postimg.cc/XJY1M1ZL/channels4-profile.jpg)
+content: url(https://i.postimg.cc/XJY1M1ZL/channels4-profile.jpg);
 }
 
 a .profile-pic.pfp-fallback{
   border-radius: 50%;
 }
 
-/*Changes the group buttons to look more like the UIX buttons in Resonite*/
-.m-col .group-actions a {
-  border-radius: 10%;
+.user-info a:nth-child(2) img{
+  border-radius: 50%;
+}
+
+.col.w-25.group-left .m-row{
+ padding-top: 10px;
+}
+
+/*Changing the links to look more like the links in Resonite*/
+.col.w-75.group-right div div a{
+ color:#62d3fc;
+ text-decoration:underline;
 }
 </style>
