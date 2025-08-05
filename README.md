@@ -14,6 +14,7 @@ I only know so much about HTML and CSS. Anyone can contribute and add on to the 
 - For CSS, go to the HTML file in the repo and get <style> through </style> (This is in charge of the customization.)
 <br>
 Once you're done make sure to submit a pull request if you would like your changes to be seen on the Group Page.
+
 ## That's cool and all, but where can I find the group page?
 You can find the group page at it's current state here:
 <br>
